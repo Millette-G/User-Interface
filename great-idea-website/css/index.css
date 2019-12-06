@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Navagation and logo */
+.all {
+	border:40px solid white;
+}
+.logo {
+	float:right;
+	margin-right: 200px;
+}
+.links a {
+	color: grey;
+	text-decoration: none;
+	width:6%;
+	display:inline-block;
+	margin:1% 0.1% 1% 0.1%;
+	padding-left: 110px;
+}
+
+/* Top */
+.round {
+	float:right;
+	margin:50px 190px 50px 1px;
+}
+header {
+	height:450px;
+	padding: 20px;
+	width: 69%;
+}
+h1 {
+	text-align: center;
+	margin:40px 10px 40px 40px;
+	width: 75%;
+	font-size: 80px;
+	display:inline-block;
+}
+h1 a{
+	width: 80%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.button {
+	font-size: 25px;
+}
+/* Middle */
+.middle {
+	border-top:1px solid black;
+	margin: 35px 195px;
+}
+.middle div {
+	display: inline-block;
+	width: 49%;
+	padding: 1px;
+	
+}
+.middle div p {
+	display: inline-block;
+	font-size: 22px;
+	margin: 1px 1px;
+}
+.middle div h2 {
+	margin: 35px 1px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.middle-img {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Bottom */
+.bottom {
+	border-bottom:1px solid black;
+	margin: 30px 190px;
+	padding-bottom: 35px;
+}
+.bottom div {
+	display: inline-block;
+	width: 32%;
+	padding: 2px;
+	margin: 2px;
+}
+.bottom div p {
+	font-size: 18px;
+}
+.bottom div h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+/* Contact and footer */
+address h4 {
+	font-size: 20px;
+}
+address {
+	
+	line-height: 45px;
+	display: inline-block;
+	text-align: left;
+	font-size: 20px;
+	width: 350px;
+	margin-left: 200px;
+}
+footer {
+	font-size: 19px;
+	text-align: center;
+	margin: 80px;
+}
